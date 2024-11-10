@@ -20,5 +20,30 @@ Encryption is the process by which a readable message is convertedd to an unread
    3.4 MD5 (Message Digest 5): An older hash function, now considered weak and prone to collisions.
    3.5 RIPEMD-160: A 160-bit hashing algorithm, designed as an alternative to MD5 and SHA.
 
- 
+Character Encoding and Decoding Instructions:
+Compile the code using g++:
+D:\Projects\Encryption-Decryption-C++> g++ main.cpp encryption.cpp -o run
+
+Run the program:
+D:\Projects\Encryption-Decryption-C++> run
+Enter the file name: The program will ask for the file name where you want to encrypt or decrypt the content.
+
+Enter the file name: input.txt
+Select the operation: You can choose to either encrypt or decrypt the file.
+
+Enter e for encryption.
+Enter d for decryption. Example for encryption:
+
+Encrypt (e) or Decrypt (d): e
+Encryption completed successfully.
+Run the program again for decryption: To decrypt the file, you run the program again with the encrypted file:
+
+D:\Projects\Encryption-Decryption-C++> run
+Enter the encrypted file name:
+
+Enter the file name: encrypted_input.txt
+Choose to decrypt: Enter d to decrypt the file:
+
+Encrypt (e) or Decrypt (d): d
+Decryption completed successfully.
 
